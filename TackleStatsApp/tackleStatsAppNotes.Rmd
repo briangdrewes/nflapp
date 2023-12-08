@@ -1,0 +1,32 @@
+
+
+```{r}
+library(shiny)
+library(shinydashboard)
+library(shinydashboardPlus)
+library(dplyr)
+library(ggplot2)
+library(shinyWidgets)
+library(shiny)
+library(tidyverse)
+library(ggplot2)
+library(viridis)
+library(hrbrthemes)
+library(corrplot)
+library(RColorBrewer)
+library(plotly)
+library(fmsb)
+
+livePlays = read_csv('livePlays.csv')
+players = read_csv('players.csv')
+player_tackles_byweek = read_csv('player_tackles_byweek.csv')
+player_rankings = read_csv('player_rankings.csv')
+weekly_position_avgs = read_csv('weekly_position_avgs.csv')
+player_tackles_total = read_csv('player_tackles_total.csv')
+displayName_defensiveTeam_color = read_csv('displayName_defensiveTeam_color.csv')
+player_tackles_byposition_byweek = read_csv('player_tackles_byposition_byweek.csv')
+top10_tacklers_bypos_stats = read_csv('top10_tacklers_bypos_stats.csv')
+
+
+```
+
